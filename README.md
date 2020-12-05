@@ -1,7 +1,26 @@
-# Simple API to Demonstrate DevOPs and Observability
+# Simple Node.js API #
+
+*This project is work in progress*, more features will be added. The goal is to apply best practices in the simplest manner.
+
+![image](docs/Simplicity.png)
+
+**Features released to date:**
 
 * Demonstrate how to integrate New Relic with a simple Node.js Express API
-* Use K6 to generate a load to populate data in New Relic
+* Docker Image
+* Deploying to Local Kubernetes Cluster (tested on MiniKube/MacOS)
+* Running Load Test with K6 (https://github.com/loadimpact/k6)
+* Integration with New Relic (Free Tier) for Observability (https://one.newrelic.com/)
+
+
+**Features to be release soon:**
+
+* Adding Datastore and persistence
+* Unit Test
+* Integration Tests
+* Audit Logging using Pino
+* Authentication/Authorization
+
 
 ## Build and Run Locally
 
