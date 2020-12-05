@@ -1,8 +1,10 @@
 # Simple Node.js API #
 
-**This project is work in progress**, more features will be added. The goal is to apply best practices in the simplest manner.
+**This project is work in progress**, more features will be added. The goal is to apply best practices to Microservice development in the simplest manner.
 
 ![image](docs/Simplicity.jpg)
+
+------------
 
 **Features released to date:**
 
@@ -21,6 +23,7 @@
 * Audit Logging using Pino
 * Authentication/Authorization
 
+------------
 
 ## Build and Run Locally
 
