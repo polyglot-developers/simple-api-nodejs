@@ -1,13 +1,13 @@
 # Simple Node.js API #
 
-*This project is work in progress*, more features will be added. The goal is to apply best practices in the simplest manner.
+**This project is work in progress**, more features will be added. The goal is to apply best practices in the simplest manner.
 
 ![image](docs/Simplicity.jpg)
 
 **Features released to date:**
 
-* Demonstrate how to integrate New Relic with a simple Node.js Express API
-* Docker Image
+* Simple Express API
+* Docker image creation
 * Deploying to Local Kubernetes Cluster (tested on MiniKube/MacOS)
 * Running Load Test with K6 (https://github.com/loadimpact/k6)
 * Integration with New Relic (Free Tier) for Observability (https://one.newrelic.com/)
