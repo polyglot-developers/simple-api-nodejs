@@ -2,7 +2,7 @@
 
 *This project is work in progress*, more features will be added. The goal is to apply best practices in the simplest manner.
 
-![image](docs/Simplicity.png)
+![image](docs/Simplicity.jpg)
 
 **Features released to date:**
 
