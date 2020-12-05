@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: simple-api-node
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: simple-api-node.info
+    http:
+      paths:
+        - path: /
+          backend:
+            serviceName: simple-api-node
+            servicePort: 8000
